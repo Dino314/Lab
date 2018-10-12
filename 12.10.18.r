@@ -339,6 +339,10 @@ y <-c(50:100)
 x
 y
 df <- as.data.frame(x,y)
+//
+
+as.data.frame(c((1:5), c(6:10), c(11:15),c(16:20)))
+
 ?as.data.frame
 df
 
