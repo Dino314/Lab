@@ -23,4 +23,52 @@ as.Date("30aug1930", format="%d%b%Y")
 
 
 ###################
+#functions
+
+if(5>0){
+  print("Positive")
+}
+
+a = c(5,7,2,9)
+b=a
+ifelse(a %% 2 == 0,"even","odd")
+
+a*b
+
+##########
+#Exercise 1
+i<-0
+repeat{
+  if(i%%2==0 & i>0){
+    print(i)
+  }
+  else if(i==11) {
+    break
+  }
+ i=i+1
+}
+#Exercise 2
+msg <- c("Hello")
+i <- 1
+
+repeat{
+  print(msg)
+  if(i>4) break
+  i=i+1
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
 
