@@ -116,3 +116,8 @@ summarise(hflights, min_dist = min(Distance), max_dist = max(Distance))
 summarise(filter(hflights, Diverted==1), max_div = max(Distance))
 
 #2.naloga po zejji (source hhtps)
+
+temp1<-filter(hflights, !is.na(ArrDelay))
+
+summarise(temp1, earliest = min(ArrDelay), average = mean())####not done
+
