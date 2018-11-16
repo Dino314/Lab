@@ -56,8 +56,60 @@ repeat{
   if(i>4) break
   i=i+1
 }
-
-  
+#Exercise 3
+i<-1
+while(i<8){
+  if(i%%2==1){
+  print(i)
+  }
+  i<-i+1
+}
+#Exercise 4
+msg <- c("Hello")
+i <- 1
+while(i<7){
+  print(msg)
+  i<-i+1
+}
+#Exercise 5
+x <- c(7, 4, 3, 8, 9, 25)
+i<-1
+for(val in x){
+  print(val)
+  if(i>3){
+    break
+  }
+  i<-i+1
+}
+#Exercise 6
+y <- c("q", "w", "e", "r", "z", "c")
+for(val in y){
+  print(val)
+}
+#Exercise 7???
+a<-1
+b<-1
+for(i in 1:3){
+  a<-a+1
+  for(j in 1:3){
+    b<-b+1
+    print("a:")
+    print(a)
+    print("b: ")
+    print(b)
+    if(j>2){
+      break
+    }
+  }
+}
+#Exercise 8
+i<-1:5
+for(j in i){
+  if(j==3){
+    next()
+  }
+  print(j)
+}
   
   
   
