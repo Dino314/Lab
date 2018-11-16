@@ -49,6 +49,64 @@ apply(Titanic, c(2, 3), sum)
 a<-lapply(iris, class)
 ##pravilnejsaa, a in b
 sapply(iris[,!sapply(iris, is.numeric), drop=FALSE],levels)
+#####################
+#functions.txt
+#Exercise 1
+son <- function(x){
+  return(x^2)
+}
+son(10)
+
+#Exercise 2
+pan <- function(x, y=2){
+  return(x^y)
+}
+pan(4, 5)
+
+#Exercise 3
+coa <- function(x){
+  return(class(x))
+}
+coa(Titanic)
+#Exercise 4
+vektor <- function(x, y){
+  sum(x == y)
+}
+vektor(c(3,3,3,3), 3)
+#Exercise 5
+divisors <- function(x){
+  for(i in (x/2):2){
+    if(x%%i==0){
+      print(i)
+    }
+  }
+}
+divisors(24)
+#####
+howmany <- function(e){
+  v<-sample(1:10,20,replace=TRUE)
+  print(v)
+  print(paste("Element: ",e))
+  
+  return(length(v[v==e]))
+}
+
+sapply(1:10,howmany)
+########
+v<-sample(1:10,20,replace=TRUE)
+howmany <- function(e,z){
+  print(v)
+  print(paste("Element: ",e))
+  
+  return(length(v[v==e]))
+}
+
+sapply(1:10,howmany,z=v)
+####
+#dplyr.txt doma
+####
+
+
 
 
 
