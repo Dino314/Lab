@@ -1,0 +1,33 @@
+---
+title: "1. naloga"
+output: html_document
+---
+
+```{r, echo=FALSE}
+x<-1:10
+y<-round(rnorm(10, x, 1), 2)
+df<-data.frame(x,y)
+```
+
+
+```{r, eval=FALSE, echo=FALSE}
+df
+
+plot(x, y)
+ggplot2::qplot(x,y)
+xyplot(x~y, data=df)
+```
+###################################################
+
+```{r}
+plot(x,y)
+```
+
+```{r, eval=FALSE}
+plot(x,y)
+print("eval false")
+```
+
+```{r, echo=FALSE}
+plot(x,y)
+```

@@ -1,0 +1,16 @@
+---
+title: "Naslov"
+author: "jaz"
+date: "danes"
+output: html_document
+---
+
+```{r, echo=FALSE, fig.width=5, fig.height=5, dev='svg'}
+summary(cars)
+plot(cars)
+as.data.frame(cars)
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+```
