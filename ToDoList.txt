@@ -1,0 +1,3 @@
+-izbira ogled koliko projektov je biloo ustvarjenih, upsesnih, neuspesnih, vsota, etc. za vsako leto, mesec ali dan
+-piechart za zgornje
+-izbira vrsta grafa (ali sam dolocim)

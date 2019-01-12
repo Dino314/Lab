@@ -1,3 +1,5 @@
+##appl, lappla, sapply, mapply, user defined functions
+
 data(beavers)
 head(beaver1)
 apply(beaver1, 2, min)

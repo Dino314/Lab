@@ -1,3 +1,5 @@
+##Date formatting, functions
+
 as.Date("09/28/2008", format="%m/%d/%Y")
 ##################
 currentL<-Sys.getlocale()

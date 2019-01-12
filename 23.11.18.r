@@ -1,3 +1,5 @@
+##datafframe manipulation
+
 library(tidyverse)
 
 iris %>% select(Species) %>% group_by(Species) %>% summarise(number = n())#summarise=count

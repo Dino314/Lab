@@ -1,3 +1,5 @@
+##plots, regex
+
 g<- ggplot(airquality, aes(x=Ozone, y=(Temp-32)*0.5556))+geom_point()
 g<-g+ggtitle("Ozone vs. Temp")+facet_grid(Month~.)
 g

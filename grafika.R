@@ -1,3 +1,5 @@
+##plot, lattice, histogram, barchart, ggplot
+
 index<-data.frame(year=2007:2016, pop=sample(10000:20000, size=10))
 
 plot(index$year,index$pop)
